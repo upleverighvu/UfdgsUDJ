@@ -9,8 +9,6 @@ on:
       - sdk-preview
     paths:
       - cli/assets/data/cloud-folder-https.yml
-      - .github/workflows/cli-assets-data-cloud-folder-https.yml
-      - cli/setup.sh
 jobs:
   build:
     runs-on: ubuntu-latest
